@@ -106,7 +106,8 @@ offboard/perception/tracking/python/scripts/auto_create_and_upload_scenario.py
 ·85:   run_auto_create_track_scenario.add('--output_file', scenario_output_name)
 ·86:   run_auto_create_track_scenario.add('--experiment_id',
 ·87:                                      "offboard.detection.tracking")
-·88:   run_auto_create_track_scenario.add('--effective_timestamp',
+- ·88:   run_auto_create_track_scenario.add('--effective_timestamp',
++ ·89:   run_auto_create_track_scenario.add('--effective_timestamp',
 ·89:                                      args.effective_timestamp)
 ·90:   run_auto_create_track_scenario.add('--issue_type', args.issue_type)
 ·91: 
